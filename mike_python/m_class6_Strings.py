@@ -13,7 +13,7 @@ print(name.upper().isupper()) # >>> True
 
 print(" ")    ### 4
 
-name = "Ellie Markelov"
+name = "Ellie Markelov"   # Now name equals Ellie not Arturo  
 print(len(name))  # >>> 14
 
 print(" ")    ### 5
