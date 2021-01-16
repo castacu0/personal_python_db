@@ -1,3 +1,7 @@
+import time
+seconds = time.time()
+print("Seconds since epoch =", seconds)	
+
 i_1 = 10
 i_2 = 1
 
