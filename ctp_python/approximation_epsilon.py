@@ -1,8 +1,8 @@
 numUser = int(input(f'\nEscoge un numero: '))
-epsilon = 0.1 #a positive quantity close to zero.
+epsilon = 0.01 #a positive quantity close to zero.
 numGuesses = 0
 i = 0.0
-jump = 0.01 #epsilon**2
+jump = 0.0001 #epsilon**2
 # jump = epsilon**2 ; print(f'Guardamos otro numero, {jump} en otra variable llamada paso')
 # respuesta = 0.0 ; print(f'Guardamos la flotante {respuesta} en una variable llamada respuesta')
 #print()
