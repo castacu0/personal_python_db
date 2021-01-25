@@ -1,8 +1,12 @@
+# 1, 1, 2, 3, 5, 8, 13, 21
+
 def fibonnacci(num):
-    if num == 0 or num == 1: #if these are TRUE 
-      return 1 #base cases
-    return fibonnacci(num - 1) + fibonnacci(num - 2) 
-#rememeber it has parameters. 👆
-    # if they are FALSE
-fibonnacci(5)
-print("The following number after 5 in the sequence is", fibonnacci(5))
+    if num == 1: #First digit
+        return 1 #because the factorial of 1! is 1
+    elif num == 2: #Second number of the secuence
+        return 1 #because the factorial of 1! is 1, as well.
+    elif num > 2: #so 4
+        return fibonnacci(num-1) + fibonnacci(num-2) 
+
+num = int(input("Give me a number: "))
+print("9", fibonnacci(num))
