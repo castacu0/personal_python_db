@@ -28,3 +28,5 @@ thisDictionary = {
   "male": True
 }
 print(type(thisDictionary))
+
+newdict = {i = i*i*i*i for i in thisDictionary }
