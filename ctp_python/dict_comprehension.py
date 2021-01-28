@@ -37,6 +37,7 @@ print(exampleD)
 print(numbers) 
 print("\n\n")
 del exampleD["name"]
-newD = numbers.get("f", "Not a valid key")
+newD = numbers.get
+
 print(exampleD) #jelp
 print(newD) #jelp
