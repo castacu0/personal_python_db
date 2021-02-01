@@ -1,4 +1,5 @@
-# learningpython
+# Learning and practicing Python 🌋
+
 Some projects I made to introduce myself into this languaje.
 ```
 Hello my friend. 
