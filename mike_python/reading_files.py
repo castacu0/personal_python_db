@@ -1,3 +1,6 @@
+"""character1 is the variable storing
+the in-built function open, and its 2 params"""
+
 characters1 = open("external.txt", "r")
 
 # print(characters1.readable()) #True or False
@@ -9,7 +12,6 @@ characters1 = open("external.txt", "r")
 # print(characters1.readlines()) # Several lines. It needs more params
 
 # print(characters1.readlines()[2]) # Several lines. It needs more params
-
 
 for i in characters1.readlines():
     print(i)
