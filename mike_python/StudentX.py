@@ -13,4 +13,4 @@ class Student:
          self.gpa = gpa_Xz
          self.approved = approved_Xz
 
-print(help(Student))
+help(Student) # if you put a print it throws NONE
