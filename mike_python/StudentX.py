@@ -4,7 +4,8 @@ class Student:
     """This is my Student data type.
     The values ending with _Xz are a way to identify them.
     I will print the ones to the left
-    ---> self.name    NOT    name_XZ
+       ---> self.name    NOT    name_XZ
+    the instances 👆
     print(Student.name)"""
 
     def __init__(self, name_Xz, faculty_Xz, gpa_Xz, approved_Xz):
