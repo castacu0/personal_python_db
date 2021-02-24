@@ -11,12 +11,20 @@ def run():
         'Argentina': 44_673_129,
     }
 
-      # 3 different ways of using 'strings'
-    for each_Country, population in countries_Population.items():
-        print("With commas", each_Country, "has:", population, "people." ) #1
-        print(each_Country + " has: " + str(population) + " people." ) #2
-        print(f"The sexy country named {each_Country} has {population} people.") #3
-        print("\n") #This gives me more space. You can erase it.
+# 🔴 3 different ways of using 'strings' 🔴
+
+for each_Country, population in countries_Population.items():
+    print("In", each_Country, "we've:", population, "people") #1 🔴
+             # with commas 👆
+    print(each_Country + " has: " + str(population) + " people") #2 🔴
+             # with plus signs    👆
+    print(f"In {each_Country} we have {population} people") #3 🔴
+             # with the f"{}" syntax 👆
+        
+    # Cut a long line with --> \
+    print("\n" "\t" "\r" "",end=" ") #New line / tab / carriage return 
+# Avoid using the f"{}" format with dictionaries
+# or places were there are no indexes
 
 
     # print(my_dictionary['key1'])
