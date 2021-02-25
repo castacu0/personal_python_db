@@ -2,6 +2,7 @@ class Coordinates:
     """We want to know he distance
     between 2 given coordinates"""
     def __init__(self, coo_x, coo_y):
+        print("init running")
         self.x = coo_x
         self.y = coo_y
 #these are 👆 called instances
