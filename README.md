@@ -14,7 +14,7 @@ The content of this repo is based on the courses I've been taken the past few mo
  - [Introduction to the Terminal and Command Line Course](https://platzi.com/clases/terminal/) 🪐
  - [Introductory Course to Computational Thinking with Python](https://platzi.com/clases/python-cs/) 🎍
  - [Basic Python Course](https://platzi.com/clases/python/) 📛
-
+ - [Course of OOP and Algorithms with Python](https://platzi.com/clases/poo-python/) 🎍
 
 # Learning and practicing the language 🌋
 
@@ -30,7 +30,7 @@ Some projects I made to introduce myself into this languaje. So far, I've worked
 # Currently finishing:
 
   - [Linear Algebra Fundamentals Course with Python](https://platzi.com/clases/algebra-lineal/)
-  - [Business Analysis Course for Data Science](https://platzi.com/clases/negocios-data-science/)
+  - [Database Fundamentals Course](https://platzi.com/clases/bd/)
 
 # Extra materials to learn ⭕
 
