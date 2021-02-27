@@ -38,3 +38,29 @@ print("Python is " + h) # h was local
 
 
 #DATA TYPES '''''''''''''''''''''''''''''''
+# All good, I just printed physical sheets
+
+#NUMBERS '''''''''''''''''''''''''''''''
+#int, float, complex, and type conversion
+
+#STRINGS '''''''''''''''''''''''''''''''
+print("\n")
+
+#Multiline Strings
+var = """You can assign a multiline string to
+a variable by using three quotes:"""
+'''or with single '''
+
+# Check Certain phrase in String or if NOT
+txt = "The best things in life are free!"
+
+if "bests" in txt:
+    print("best is there")
+elif "coca" in txt : 
+    print("COCA is not here")
+else:
+  print("OUT")
+
+# Slicing Strings
+string = "I'm a string, and you?"
+print(string[-7:-3]) #or [2:11:2]  
