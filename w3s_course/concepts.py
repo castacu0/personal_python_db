@@ -64,3 +64,16 @@ else:
 # Slicing Strings
 string = "I'm a string, and you?"
 print(string[-7:-3]) #or [2:11:2]  
+
+# Modifying Strings with Methods
+# the .format() is quite interesting
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+txt2 = "My name is {0}, I'm {1}".format("John",36)
+txt3 = "My name is {}, I'm {}".format("John",36)
+
+#as well as
+#Use "," to add a comma as a thousand separator:
+
+txt = "The universe is {:,} years old."
+print(txt.format(13800000000))#13,800,000,000
+

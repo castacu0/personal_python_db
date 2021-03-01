@@ -1,4 +1,4 @@
-
+ 
 def isPrime(number): 
     contador = 0
 
@@ -8,9 +8,11 @@ def isPrime(number):
 
     for i in range(1, number + 1):
         if i == 1 or i == number:
+            #if the iteration is 1 or the number, ignore it
             continue
         if number % i == 0:
             contador += 1
+            #if there are modules = 0, give them a point
             break
 
 

@@ -1,3 +1,2 @@
-# 
-string = "I'm a string, and you?"
-print(string[-7:-3]) #or [2:11:2]
+txt = "For only {cesar:.6f} dollars!"
+print(txt.format(cesar = -49))
