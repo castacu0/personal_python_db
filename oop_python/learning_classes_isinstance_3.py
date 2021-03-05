@@ -20,3 +20,7 @@ if __name__ == "__main__":
     #             an instance of the Class Coordinates.
     print(f"Check 2: {isinstance(54, Coordinates)}")
 
+
+x = 200
+print(isinstance(x, int))
+

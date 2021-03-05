@@ -77,3 +77,8 @@ txt3 = "My name is {}, I'm {}".format("John",36)
 txt = "The universe is {:,} years old."
 print(txt.format(13800000000))#13,800,000,000
 
+#OPERATORS '''''''''''''''''''''''''''''''
+"""Bitwise operators
+Bitwise operators act on operands as if they were strings of binary digits. They operate bit by bit, hence the name.
+
+For example, 2 is 10 in binary and 7 is 111."""
