@@ -1,0 +1,7 @@
+Our teacher taught us who to install a:
+Visual Environment 
+ "$ py -m venv venv"
+
+Classes 4, 5, 6, 7
+
+But I prefered Anaconda
