@@ -22,6 +22,7 @@ def main():
     for i in super_list:
         print(i["firstname"] , "-" , i["lastname"])  #"I was missing the commas"
     
+    print("\n")
     for i in super_list:
         for key, values in i.items():
             print(key,": ", values);
