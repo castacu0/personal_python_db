@@ -1,0 +1,22 @@
+Our teacher taught us who to install a:
+Virtual Environment 
+
+ "$ py -m venv venv"
+      module virtualenv	name
+
+LINUX $ source venv/bin/activate
+WINDOWS $ .\venv\Scripts\activate
+
+
+then $ deactivate
+
+Classes 4, 5, 6, 7
+
+But I prefered Anaconda
+
+
+REMINDER: USE AN ALIAS TO SAVE THE COMMAND
+
+//////////////
+Class 6:
+PIP
