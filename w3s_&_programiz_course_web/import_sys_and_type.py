@@ -1,9 +1,9 @@
 # x = "hello"
 
 # if not type(x) is int:
-#   raise TypeError("Only integers are allowed")
+#    raise TypeError("Only integers are allowed")
 
-#print(dir(locals()['__builtins__']))
+
 
 # import module sys to get the type of exception
 import sys

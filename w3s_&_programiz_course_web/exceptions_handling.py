@@ -1,5 +1,7 @@
 #https://www.programiz.com/python-programming/exception-handling
 
+#I ALREADY HAVE NOTES OF THIS 🦾
+
 # CASE 1
 # import module sys to get the type of exception
 import sys
