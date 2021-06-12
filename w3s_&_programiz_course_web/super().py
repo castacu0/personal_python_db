@@ -45,4 +45,4 @@ class Dog(NonMarineMammal, NonWingedMammal):
     
 caller = Dog()
 print('')
-bat = NonMarineMammal('🦇 - Bat')
+bat_caller = NonMarineMammal('🦇 - Bat')
