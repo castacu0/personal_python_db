@@ -20,8 +20,9 @@ class Triangle(Polygon):
         a, b, c = self.sides
         # calculate the semi-perimeter
         s = (a + b + c) / 2
-        area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+        area = (s*(s-a) * (s-b) * (s-c)) ** 0.5
         print('🐍 The area of the triangle is %0.2f' %area)
+        print(f"🐍 The area of the triangle is {area}")
 
 t = Triangle() #caller
 
