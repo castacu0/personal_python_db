@@ -10,8 +10,9 @@ The iterator calls this function(1st) until the returned value is equal to the s
 print(int()) #int is always 0
 
 infinite = iter(int, 1) #the sentinel never gets called
-print(next(infinite))
-print(next(infinite))
+print(next(infinite)) #0
+print(next(infinite)) #0
+print("\n")
 
 class Infinite_Iter:
     """Infinite iterator to return all
@@ -22,9 +23,13 @@ class Infinite_Iter:
         return self
 
     def __next__(self):
-        num = self.num
+        num0 = self.num
         self.num += 2
-        return num
+        return num0
 
 a = iter(Infinite_Iter())
-print(next(a))
+print(next(a)) #1
+print(next(a)) #3
+print(next(a)) #5
+print(next(a)) #7
+print(next(a)) #9
