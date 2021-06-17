@@ -12,7 +12,7 @@ print(MyClass.i)
 print(MyClass.f)
 
 # Instantiation is saving a class inside
-# of a variable, and then callint the
+# of a variable, and then calling the
 # variable to work with it
 
-#Like with:  ----->   blu= Parrot("", 10)
+#Like with:  ----->   blu = Parrot("", 10)
