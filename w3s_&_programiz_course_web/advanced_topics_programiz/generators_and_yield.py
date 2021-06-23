@@ -5,6 +5,13 @@ Both yield and return will return some value from a function.
 The difference is that while a return statement terminates a
 function entirely, yield statement pauses the function saving
 all its states and later continues from there on successive calls.
+
+StopIteration is raised automatically on further calls.
+
+One interesting thing to note in the above example is that the value
+of variable n is remembered between each call.
+
+Unlike normal functions, the local variables are not destroyed when the function yields.
 """
 
 
@@ -45,3 +52,27 @@ obj = read_file()
 # print(next(obj))
 for i in range(6):
     print(next(obj), end='')
+
+
+
+
+# ⭐ WAY 4: Pipelining Gens ⭐
+# 0, 1,  1, 2, 3, 5, 8, 13, 21, 34
+print("\n")
+def fibonacci_numbers(nums): #10  /  from 0 to 9
+    x, y = 0, 1 # base case
+    for fib in range(nums):
+        x, y = y, x + y
+        #x with y  &  y with x+y
+        yield x
+
+def square(nums):
+    for i in nums:
+        yield i**2
+
+print(sum(square(fibonacci_numbers(10))))
+#print(fibonacci_numbers(10))
+k = fibonacci_numbers
+for ff in range(k):
+    print(ff)
+#fibonacci_numbers takes 10 as argument. Then, square takes whatever fibonacci_numbers resulted
