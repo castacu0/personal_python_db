@@ -75,4 +75,5 @@ print(sum(square(fibonacci_numbers(10))))
 k = fibonacci_numbers
 for ff in range(k):
     print(ff)
-#fibonacci_numbers takes 10 as argument. Then, square takes whatever fibonacci_numbers resulted
+# fibonacci_numbers takes 10 as argument.
+# Then, square takes whatever fibonacci_numbers resulted

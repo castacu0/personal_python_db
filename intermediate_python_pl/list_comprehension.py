@@ -20,7 +20,7 @@ def main():
         if i % 3 != 0: #If the division returns everything but 0. RUN the block
             warehouse.append(i**2)
         # if i**2 % 3 == 0:
-        #     continue #if it is True. Skip it
+        #     continue        #if it is True. Skip it
         # warehouse.append(i**2)
     print(warehouse)
 
