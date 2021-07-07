@@ -1,9 +1,14 @@
 def main():
+    """
+    Testing super lists and
+    super dictionaries
+    Before list comprehensions
+    """
     my_list = [False, "Random", 5.8, 3]
     my_dicts = {"firstname":"Robert", "lastname":"Acuna",}
 
     super_list = [
-        {"firstname":"Robert", "lastname":"Acuna"},
+        {"firstname":"Roberto", "lastname":"Acuna"},
         {"firstname":"Juan", "lastname":"Mendez"},
         {"firstname":"Lupe", "lastname":"Yao"},
         {"firstname":"Marco", "lastname":"Lole"},
