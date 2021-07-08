@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Data Science Basics with Python ⚡</h1>
+  <h1> ⚡ Python ⚡</h1>
 </div>
 
 <div align="center"> 
@@ -8,6 +8,8 @@
 
 # Brief introduction ⭐
 
+Around 134 files are inside of these folders, so far.
+
 The content of this repo is based on the courses I've been taken the past few months to learn Python:
  - [Prework Windows Environment Course](https://platzi.com/clases/prework-windows/) 🎎
  - [Git and GitHub Professional Course](https://platzi.com/clases/git-github/) 🌄
@@ -15,6 +17,7 @@ The content of this repo is based on the courses I've been taken the past few mo
  - [Introductory Course to Computational Thinking with Python](https://platzi.com/clases/python-cs/) 🔬
  - [Basic Python Course](https://platzi.com/clases/python/) 📛
  - [Course of OOP and Algorithms with Python](https://platzi.com/clases/poo-python/) ⏰
+ - and many more I haven't updated
 
 # Learning and practicing the language 🌋
 
