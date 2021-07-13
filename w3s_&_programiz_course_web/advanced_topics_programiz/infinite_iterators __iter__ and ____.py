@@ -4,15 +4,18 @@
 The built-in function iter() can be called with two arguments.
   / The first parameter must be a callable object (function)
   / The second is the sentinel. 
+
 The iterator calls this function(1st) until the returned value is equal to the sentinel (maxnum).
 """
 
 print(int()) #int is always 0
 
-infinite = iter(int, 1) #the sentinel never gets called
+infinite = iter(int, 1) #the sentinel never gets called because they-re never equal
 print(next(infinite)) #0
 print(next(infinite)) #0
 print("\n")
+
+#----------------------------------------------------------
 
 class Infinite_Iter:
     """Infinite iterator to return all
@@ -33,3 +36,15 @@ print(next(a)) #3
 print(next(a)) #5
 print(next(a)) #7
 print(next(a)) #9
+
+# 0
+# 0
+# 0
+ 
+ # ---------------------
+ 
+# 1
+# 3
+# 5
+# 7
+# 9

@@ -20,7 +20,7 @@ def square_sum(numbers):
 caller = square_sum(numbers)
 print(caller)
 
-#2 ---- WORKS (missin' return)
+#2 Mine ---- WORKS (I was missin' return)
 # def square_sum(numbers):
 #     return (sum(x**2 for x in numbers))
 # caller = square_sum(numbers)

@@ -1,3 +1,4 @@
+#Generator expression or comprehension (3rd and 4th example)
 
 """
 Description:
@@ -9,6 +10,7 @@ come out, because 92 is 81 and 12 is 1.
 
 Note: The function accepts an integer and returns an integer
 """
+
 # Mine / Worked but with bad practices
 
 # def square_digits(num):
@@ -49,3 +51,13 @@ def square_digits(num):
 #The join() method returns a string created by joining
 # the elements of an iterable by string separator.
 
+""" 
+Generator expressions can be used as function arguments/parameters.
+ When used in such a way, the round parentheses can be dropped.
+ 
+ >>> sum(x**2 for x in my_list)
+146
+
+>>> max(x**2 for x in my_list)
+100
+"""

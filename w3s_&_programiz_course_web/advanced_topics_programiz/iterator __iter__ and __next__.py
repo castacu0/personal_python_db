@@ -33,7 +33,7 @@ print(next(e)) # 327
 names = ["\nPaul", "Usul", "MuadDib", "Atreides"]
 o = iter(names)
 
-while(True):
+while(True): #infinite
     try:
         traveler = next(o)
         print(traveler)
