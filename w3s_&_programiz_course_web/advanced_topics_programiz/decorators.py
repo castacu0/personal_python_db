@@ -2,20 +2,17 @@
 "A decorator is just a function that takes another function as an
 argument, adds some kind of functionality, and then returns another function."
 
-
-So, in the most basic sense, a decorator is a callable, that takes a callable
-and returns a callable.
-
 """
-def make_pretty(parameter):
-    def inner():
+def decorator_function(func_to_alter):
+    def wrapper():
         print("I got decorated")
-        parameter() #ordinary gets here  #I'm accepting a func and calling it()
-    return inner
+        return func_to_alter() #now calling the ordinary()
+        #func_to_alter() #same shit
+    return wrapper
 
-@make_pretty #the parameter is not needed to be called
+@decorator_function #decorate this 👇 please
 def ordinary():
-    print("I am ordinary function")
+    print("I am an ordinary function")
 
-ordinary() #but this has
+ordinary() #but this is calling the wrapper  >>> ()
 
