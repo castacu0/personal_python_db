@@ -1,4 +1,18 @@
+"""
+The proper way to never forget how decorators work is just
+keeping in mind what that '@' syntax means: 
 
+@decorator
+    def function():
+    ...
+
+is equivalent to: exit_function = decorator(function).
+
+@decorator_function 
+    def display():
+
+displayX = decorator_function(display)
+"""
 # PART 1
 # OK, CAREFUL HERE
 # THIS METHOD WOULDN'T WORK IF OUR func_to_alter took in any param/arg
@@ -21,7 +35,9 @@ display()
 
 """
 >>>  🔵 THIS SYNTAX IS NUM 1
+
 # The def display(): goes 👈👆BEFORE the object calling(displayX) and the general calling
+
 def display(): #Im the one to be altered
     print("Decorator Working for me! I'm DISPLAY")
 
@@ -33,7 +49,7 @@ displayX() #() this is the obj var that calls the wrapper_function up there
 
 >>> 🔵 THIS SYNTAX IS NUM 2
 # The def display(): goes AFTER👉👇 the @decorator_function and does the same as:
-# displayX = decorator_function(display)       displayX()
+# displayX = decorator_function(display)          nextline>>  displayX()
 
 @decorator_function    #👇 I'm decorating this one
 def display(): #Im the one to be altered
