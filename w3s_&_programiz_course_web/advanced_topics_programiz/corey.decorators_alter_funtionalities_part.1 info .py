@@ -6,7 +6,8 @@ keeping in mind what that '@' syntax means:
     def function():
     ...
 
-is equivalent to: exit_function = decorator(function).
+is equivalent to: exit_functionX = decorator(functionX).
+
 
 @decorator_function 
     def display():
