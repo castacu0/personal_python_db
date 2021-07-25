@@ -16,11 +16,14 @@ property(fget=None, fset=None, fdel=None, doc=None)
 
 Let's start with Python decorators.
 
-A Python decorator is a function that helps to add some additional functionalities to an already defined function.
+A Python decorator is a function that helps to add some additional 
+functionalities to an already defined function.
 
-In Python, everything is an object. Functions in Python are first-class objects which means that they can be referenced by a variable, added in the lists, passed as arguments to another function etc.
+In Python, everything is an object. Functions in Python are first-class 
+objects which means that they can be referenced by a variable, added in 
+the lists, passed as arguments to another function etc.
 
-Consider the following code snippet.
+Check this out
 
 def decorator_func(fun):
     def wrapper_func():
