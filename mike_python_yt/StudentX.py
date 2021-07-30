@@ -15,3 +15,5 @@ class Student:
          self.approved = approved_Xz
 
 help(Student) # if you put a print it throws NONE
+
+caller = Student()
