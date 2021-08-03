@@ -35,6 +35,7 @@ Uppercase letters [A-Z]
 Lowercase letters [a-z]
 Numbers [0-9]
 #a to z   A to Z   0 to 9
+the + sign means more instances or objects of the same character
 
 """
 import re

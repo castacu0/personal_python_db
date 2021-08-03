@@ -1,4 +1,5 @@
 # Programiz example
+# CAREFUL 💀
 # Generators
 
 def all_even():
@@ -9,6 +10,7 @@ def all_even():
         n += 2
 
 r = all_even()
+
 for i in r:
     print(i)
 

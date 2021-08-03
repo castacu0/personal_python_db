@@ -1,3 +1,4 @@
+import re
 
 Metacharacters are characters that are interpreted in 
 a special way by a RegEx engine. Here is a list of metacharacters:
@@ -7,7 +8,7 @@ a special way by a RegEx engine. Here is a list of metacharacters:
 """
 [] - Square brackets
 
-Brackets allow us to specify that're looking for characters
+Brackets allow us to specify that we're looking for characters
 in a given group or that we wish to match with what is inside.
     
         Here, [abc] will match if the string you are trying to
@@ -35,7 +36,7 @@ in a given group or that we wish to match with what is inside.
 The star symbol * matches zero or more occurrences of the pattern 👈left to it.
 
 txt = "The rainnnn in Spain falls maimly in the plain!"
-      #Check if the string contains "ai" followed by 0 or more "n" characters:
+             #Check if the string contains "ai" followed by 0 or more "n" characters:
 x = re.findall("ain*", txt)
 
 >>> ['ainn', 'ain', 'ai', 'ain']

@@ -44,6 +44,7 @@ print("\n")
 generator = (traveler for traveler in range(1000000))
 print(next(generator))
 next(generator)
+print(generator)
 print(next(generator)) 
 # We have to call the lazy Generator if we want to see the value
 
