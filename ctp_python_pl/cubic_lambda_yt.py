@@ -4,9 +4,9 @@
 # print(cubic(num)) #arg is 5
 
 
-# num = int(input("Give me a number: ")) #>>> I chose 5
-# cubicLambda = lambda num: num*num*num
-# print(cubicLambda(num))
+num = int(input("Give me a number: ")) #>>> I chose 5
+cubicLambda = lambda num: num*num*num
+print(cubicLambda(num))
 
 
 # num = int(input("Give me a number: ")) #>>> I chose 5

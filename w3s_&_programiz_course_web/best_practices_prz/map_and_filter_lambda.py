@@ -26,7 +26,7 @@ print(result)
 
 numbers = [234, 3245, 639, 550, 654]
 
-even_numbers = list(filter(lambda n: n % 2 == 0, numbers))
+even_numbers =  list(filter(lambda n: n % 2 == 0, numbers))
 
 print(f"Only the even nums remained: {even_numbers}")
 
