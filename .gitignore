@@ -1,0 +1,18 @@
+# Distribution / packaging
+.Python
+env/
+dist/
+downloads/
+lib/
+
+# Scrapy stuff:
+.scrapy
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# virtualenv
+.venv/
+venv/
+ENV/
+vEnv/
