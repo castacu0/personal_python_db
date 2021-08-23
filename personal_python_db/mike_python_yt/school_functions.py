@@ -10,7 +10,7 @@
 
 
 # # keys = "values",
-# def cars(three, one, two,): #parameters in DEF
+# def cars(three, one, two,): #parameters in def
 #     #There is no order in those parameters, man!
 #     print(f"I love {one}")
 #     print(f"I love {three}")

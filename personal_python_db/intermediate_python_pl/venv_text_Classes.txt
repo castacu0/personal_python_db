@@ -12,7 +12,7 @@ then $ deactivate
 
 Classes 4, 5, 6, 7
 
-But I prefered Anaconda
+But I prefer Anaconda
 
 
 REMINDER: USE AN ALIAS TO SAVE THE COMMAND

@@ -28,7 +28,7 @@ This is a RegEx syntax example (mail)👇
     combinations of one or more of these characters 
         #the second part of the mail, after the @
 
-.  the dot is for the domain
+.  the dot is just a dot
 
 
 Uppercase letters [A-Z]
@@ -44,5 +44,5 @@ user_input = input()
 if(re.search(pattern, user_input)):
     print(f'yes')
 else:
-    print(f'no')
+    print(f'not valid')
     
