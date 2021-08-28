@@ -1,5 +1,1 @@
-def saludo():
-    return "Hello"
-
-print(saludo(), "Marcos")
-print(saludo(), "Lupe")
+print("Hola Sonia 2")
